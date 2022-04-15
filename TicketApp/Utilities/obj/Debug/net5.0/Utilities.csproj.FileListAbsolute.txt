@@ -1,0 +1,12 @@
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\bin\Debug\net5.0\Utilities.deps.json
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\bin\Debug\net5.0\Utilities.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\bin\Debug\net5.0\Utilities.pdb
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.AssemblyInfo.cs
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\refint\Utilities.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\Utilities.pdb
+C:\Users\Omer\Desktop\TicketApp\TicketApp\Utilities\obj\Debug\net5.0\ref\Utilities.dll
