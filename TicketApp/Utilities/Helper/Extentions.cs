@@ -18,10 +18,9 @@ namespace Utilities.Helper
         public enum Menu
         {
             CreateTicket = 1,
-            UpdateTicket,
             RemoveTicket,
             GetTicket,
-            GetAllTicket = 5
+            GetAllTicket = 4
             
         }
     }

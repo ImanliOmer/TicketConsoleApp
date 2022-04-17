@@ -20,10 +20,9 @@ namespace TicketApp
             {
                 ITicketController ticketController = new ITicketController();
                 Extentions.Print(ConsoleColor.Cyan, "1-Create Ticket\n" +
-                    "2-Update Ticket\n" +
-                    "3-Remove Ticket\n" +
-                    "4-Get Ticket\n" +
-                    "5-GetAll Ticket");
+                    "2-Remove Ticket\n" +
+                    "3-Get Ticket\n" +
+                    "4-GetAll Ticket");
 
                 string num = Console.ReadLine();
                 int input;
@@ -37,25 +36,23 @@ namespace TicketApp
                         case (int)Extentions.Menu.CreateTicket:
                             ticketController.CreatTicket();
                             break;
-                        case 2:
-                            break;
-
                         case (int)Extentions.Menu.RemoveTicket:
                             ticketController.RemoveTicket();
                             break;
 
-                        case 4:
-                            break;
+                        case
+                            (int)Extentions.Menu.GetTicket:
+                            ticketController.GetOneTicket();
+                            break ;
 
                         case (int)Extentions.Menu.GetAllTicket:
                             ticketController.GetAllTicket();
                             break;
+                            //Mission Complate
                     }
                 }
-
-
-
             }
         }
     }
 }
+

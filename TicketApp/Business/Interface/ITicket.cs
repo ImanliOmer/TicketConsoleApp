@@ -7,8 +7,6 @@ namespace Business.Interface
     {
         Ticket Create(Ticket ticket);
 
-        Ticket Update(int Id, Ticket ticket);
-
         Ticket Delete(int Id);
         
         Ticket GetTickett(string where);

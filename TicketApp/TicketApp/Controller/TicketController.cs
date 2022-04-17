@@ -27,32 +27,23 @@ namespace TicketApp.Controller
             string hours = Console.ReadLine();
 
 
-            Extentions.Print(ConsoleColor.Green, $"cost time");
+            Extentions.Print(ConsoleColor.Green, $"cost ");
             string cost = Console.ReadLine();
 
 
 
-            Extentions.Print(ConsoleColor.Green, $"Group Size");
-            string ticketSize = Console.ReadLine();
-            int size;
-
-
-            bool isSize = int.TryParse(ticketSize, out size);
-            if (isSize)
+         
+            if (true)
             {
                 Ticket ticket = new Ticket
                 {
                     Where = name,
-                    MaxSize = size,
-                  
+                     
                 };
 
                 ticketService.Create(ticket);
                 Extentions.Print(ConsoleColor.Green, $"{ticket.Where} created");
-                ticketService.Create(ticket);
-                Extentions.Print(ConsoleColor.Green, $"{ticket.Hours} go time");
-                ticketService.Create(ticket);
-                Extentions.Print(ConsoleColor.Green, $"{ticket.Cost} cost");
+
             }
             else
             {
@@ -63,7 +54,6 @@ namespace TicketApp.Controller
         }
         public void GetAllTicket()
         {
-
 
             foreach (var item in ticketService.GetAll())
             {
@@ -77,6 +67,20 @@ namespace TicketApp.Controller
             Extentions.Print(ConsoleColor.Green, $"{ticketService.Delete(id).Where}");
 
         }
+
+
+        public void GetOneTicket()
+        {
+            int id = int.Parse(Console.ReadLine());
+            Extentions.Print(ConsoleColor.Blue, $"{ticketService.GetTicket(id).Where}");
+        }
+
+
+
+
+
+
+
 
 
     }

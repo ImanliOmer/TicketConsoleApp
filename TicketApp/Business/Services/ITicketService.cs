@@ -45,11 +45,6 @@ namespace Business.Services
             return _ticketRepo.GetOne(g => g.Where == name);
         }
 
-        public Ticket Update(int Id, Ticket ticket)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Ticket> GetAll()
         {
             return _ticketRepo.GetAll();
@@ -64,9 +59,9 @@ namespace Business.Services
             return _ticketRepo.GetAll(t=>t.Where == name);
         }
 
-        public Ticket GetTickett(string cost)
+        public Ticket GetTickett(string where)
         {
-            return _ticketRepo.GetOne(t=>t.Where  == cost);
+            throw new NotImplementedException();
         }
     }
 }

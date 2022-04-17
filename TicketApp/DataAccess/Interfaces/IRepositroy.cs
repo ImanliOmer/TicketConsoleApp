@@ -14,8 +14,6 @@ namespace DataAccess.Interfaces
 
         bool Delete(T entity);
 
-        bool Update(T entity);
-
         T GetOne(Predicate<T>filter=null);
         List<T> GetAll(Predicate<T>filter=null);
 

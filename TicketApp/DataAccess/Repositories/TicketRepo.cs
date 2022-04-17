@@ -70,19 +70,5 @@ namespace DataAccess.Repositories
             }
         }
 
-        public bool Update(Ticket entity)
-        {
-            try
-            {
-                Ticket isExist = GetOne(t => t.Id == entity.Id);
-                isExist = entity;
-                return true;
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
     }
 }
