@@ -64,9 +64,9 @@ namespace Business.Services
             return _ticketRepo.GetAll(t=>t.Where == name);
         }
 
-        public Ticket GetTickett(string where)
+        public Ticket GetTickett(string cost)
         {
-            return _ticketRepo.GetOne(t=>t.Where == where);
+            return _ticketRepo.GetOne(t=>t.Where  == cost);
         }
     }
 }

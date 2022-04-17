@@ -1,5 +1,4 @@
 ﻿using Business.Services;
-using Entities.Models;
 using System;
 using TicketApp.Controller;
 using Utilities.Helper;
@@ -19,11 +18,13 @@ namespace TicketApp
             Extentions.Print(ConsoleColor.Green, "Welcome");
             while (true)
             {
+                ITicketController ticketController = new ITicketController();
                 Extentions.Print(ConsoleColor.Cyan, "1-Create Ticket\n" +
-                    "2-Update Group\n" +
-                    "3-Remove Group\n" +
-                    "4-Get Group");
-              
+                    "2-Update Ticket\n" +
+                    "3-Remove Ticket\n" +
+                    "4-Get Ticket\n" +
+                    "5-GetAll Ticket");
+
                 string num = Console.ReadLine();
                 int input;
 
@@ -34,17 +35,20 @@ namespace TicketApp
                     switch (input)
                     {
                         case (int)Extentions.Menu.CreateTicket:
-                            TicketController.Creat();
+                            ticketController.CreatTicket();
                             break;
                         case 2:
                             break;
+
                         case (int)Extentions.Menu.RemoveTicket:
-                            TicketController.RemoveTicket();
+                            ticketController.RemoveTicket();
                             break;
+
                         case 4:
                             break;
+
                         case (int)Extentions.Menu.GetAllTicket:
-                            TicketController.GetAllTicket();
+                            ticketController.GetAllTicket();
                             break;
                     }
                 }

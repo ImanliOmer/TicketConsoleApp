@@ -17,3 +17,9 @@ C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\obj\Debug\net5.0\refint\Tick
 C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\obj\Debug\net5.0\TicketApp.pdb
 C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\obj\Debug\net5.0\TicketApp.genruntimeconfig.cache
 C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\obj\Debug\net5.0\ref\TicketApp.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\Business.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\Entities.dll
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\Business.pdb
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\Entities.pdb
+C:\Users\Omer\Desktop\TicketApp\TicketApp\TicketApp\bin\Debug\net5.0\DataAccess.pdb

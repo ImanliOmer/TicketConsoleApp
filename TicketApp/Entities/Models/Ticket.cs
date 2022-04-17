@@ -11,8 +11,9 @@ namespace Entities.Models
     {
         public int Id { get; set; }
         public string Where { get; set; }
-        public double Cost { get; set; }
+        public int Cost { get; set; }
         public int Hours { get; set; }
         public int MaxSize { get; set; }
+
     }
 }
