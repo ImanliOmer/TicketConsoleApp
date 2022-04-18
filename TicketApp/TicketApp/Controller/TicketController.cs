@@ -63,6 +63,7 @@ namespace TicketApp.Controller
 
         public  void RemoveTicket()
         {
+            Extentions.Print(ConsoleColor.Yellow, $"Silmek istenilen Id:");
             int id = int.Parse(Console.ReadLine());
             Extentions.Print(ConsoleColor.Green, $"{ticketService.Delete(id).Where}");
 
@@ -71,6 +72,7 @@ namespace TicketApp.Controller
 
         public void GetOneTicket()
         {
+            Extentions.Print(ConsoleColor.Yellow, $"Id daxil edi:");
             int id = int.Parse(Console.ReadLine());
             Extentions.Print(ConsoleColor.Blue, $"{ticketService.GetTicket(id).Where}");
         }
